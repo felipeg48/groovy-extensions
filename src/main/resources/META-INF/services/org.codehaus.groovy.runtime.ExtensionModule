@@ -1,0 +1,4 @@
+moduleName = xml-module 
+moduleVersion = 1.0-test 
+extensionClasses = com.ctimx.groovy.extension.ToXmlExtension
+staticExtensionClasses = com.ctimx.groovy.extension.StringStaticExtension
