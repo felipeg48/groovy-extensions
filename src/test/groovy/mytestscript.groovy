@@ -8,7 +8,7 @@ class Sample {
 	String name
 	String phone
 }
-
+/*
 x = new Sample(name:"Felipe",phone:"(800) GROOVY ")
 
 s = x.toXml()
@@ -17,4 +17,7 @@ println s
 n = s.createInstanceFrom(Sample.class)
 	
 println n
-println String.randomUUID()
+println Integer.randomUUID()
+*/
+n = "<sample><name>Felipe</name><phone>(800) GROOVY </phone></sample>".createInstanceFrom(Sample.class)
+println n
